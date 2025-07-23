@@ -1,0 +1,139 @@
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+ 
+}
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.primary{
+    color: #E95A08;
+}
+
+/* nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+ul > li{
+    list-style: none;
+    margin-left: 40px;
+}
+li > a{
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+.home{
+    color: #252432;
+    font-weight: 700;
+}
+.shop, .about{
+    color: #8987A1;
+    font-weight: 400;
+}
+.cart{
+    color: #000000;
+    font-weight: 400;
+}
+/* banner-style */
+.banner{
+    display: flex;
+    align-items: end;
+    margin-top: 120px;
+}
+.banner h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.banner p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #00000050;
+}
+/* plant section */
+.plans-contributer{
+    margin-top: 120px;
+    align-items: center;
+    text-align: center;
+}
+.plans-contributer h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #111111;
+
+}
+.plans-contributer p{
+    font-size: 22px;
+    font-weight: 400;
+   color: #00000050;
+}
+.plants-card p{
+    font-size: 22px;
+    font-weight: 500;
+    color: #111111;
+}
+.plants-card h4{
+    font-size: 22px;
+  
+    font-weight: bold;
+    column-rule: #111111;
+    margin-top: -10px;
+}
+.plants-card button{
+    padding: 26px 50px;
+    background-color: #E95A08;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border:none ;
+    width: 270px;
+}
+.plants-card {
+    margin-top: 20px;
+    
+}
+.plants-card > img{
+    width: 270px;
+
+}
+.plants-contributer-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+@media screen and (max-width:425px) {
+    
+    .banner {
+        flex-direction: column-reverse;
+    }
+    .plants-contributer-card{
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+   .plants-card > img{
+    width: 200px;
+   }
+    .plants-card{
+        max-width: 50%;
+        text-align: center;
+    }
+    .plants-card button{
+        padding: 0;
+        width: 200px;
+        height: 50px;
+    }
+}
