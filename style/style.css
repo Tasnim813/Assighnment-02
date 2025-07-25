@@ -356,7 +356,9 @@ li>a {
 }
 .twit{
     margin-left: 20px;
+    
 }
+
 .face{
     margin-left: 20px;
 }
@@ -384,7 +386,7 @@ li>a {
         margin-left: 0px;
     }
     .plans-contributer{
-        margin-top: 50px;
+        margin-top: 30px;
     }
     .plants-contributer-card {
         grid-template-columns: repeat(2, 1fr);
@@ -461,7 +463,7 @@ li>a {
 }
 .input-content{
     position: relative;
-    bottom: 100px;    
+    bottom: 130px;    
 }
 .input-content h1{
     font-size: 30px;
@@ -499,3 +501,117 @@ li>a {
         
     }
 }
+@media screen and (min-width:426px) and (max-width:578px) {
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .home, .shop, .about{
+        display: none;
+    }
+    .plants-contributer-card{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .flower-contributer{
+        flex-direction: column;
+    }
+    
+    .card-container {
+        flex-direction: column;
+
+    }
+    .footer-contributer{
+        grid-template-columns: 1fr;
+
+    }
+    .top-text {
+    position: absolute;
+    bottom: 110px;
+    left: 150px;
+}
+.top-card > img{
+    width: 550px;
+}
+.bottom-text {
+    position: absolute;
+    bottom: 110px;
+    left: 160px;
+}
+.bottom-card > img{
+    width: 550px;
+    border-radius: 0px;
+    
+}
+
+.right-text {
+    position: absolute;
+    bottom: 90px;
+    left: 150px;
+}
+.right-card > img{
+   max-width: 550px;
+    
+    
+}
+/* Input section */
+.Input-contributer > img {
+    margin-top: 40px;
+    width: 570px; 
+    height: 276px;
+}
+
+.input-content h1{
+    font-size: 30px;
+}
+.mail{
+    
+    width: 300px;
+ 
+}
+.btn > button{
+    
+    width: 100px;
+}
+.input-content{
+    
+    bottom: 250px;  
+    
+}
+.two{
+    margin-top: -70px;
+    margin-left: 0px;
+}
+.three{
+    margin-top: -63px;
+    margin-left: 0px;
+}
+.four{
+    margin-top: -50px;
+}
+ .badge {
+        display: none;
+    }
+    .Latest-contributer{
+        margin-top: 10px;
+    }
+    .operation > img{
+        width: 1000px;
+        margin-left: 90px;
+    }
+    .footer-contributer{
+        margin-top: -80px;
+    }
+    .flower-contributer{
+        margin-top: 50px;
+    }
+    .plans-contributer{
+        margin-top: 30px;
+    }
+    .banner > img{
+        margin-top: -50px;
+    }
+
+    
+    
+}
+
+
