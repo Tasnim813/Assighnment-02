@@ -468,23 +468,27 @@ form {
     .input-contributer {
         padding: 0px;
         margin: 0px;
-        /* height: 100vh; */
+        height: 100vh;
         justify-items: center;
         background-size: cover;
         margin-top: 10px;
-        padding-top: px;
+        padding-top: 0px;
         width: 410px;
+       
        justify-items: center;
         padding-left: 00px;
-        
+        height: -1000px;
         position: relative;
         
 
     }
 
     .input-content {
-        justify-content: center;
-        align-content: center;
+ 
+        padding-top: 180px;
+        justify-content: flex-start;
+        align-items: flex-start;
+       
 
     }
 
@@ -492,6 +496,7 @@ form {
         font-size: 20px;
         font-weight: 700;
         color: #FFFFFF;
+       
     }
 
     .mail {
