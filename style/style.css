@@ -292,59 +292,47 @@ li>a {
 }
 
 /* Input style */
-.input-contributer {
-    background-image: url('../assets/news-letter-bg.png');
-    background-repeat: no-repeat;
-    height: 100vh;
-    justify-items: center;
-    background-size: contain;
-    margin-top: 120px;
+.Input-contributer > img {
+    margin-top: 100px;
+    position: relative;
+    
+    
+}
+.input-content{
+    position: relative;
     text-align: center;
-
+    bottom: 400px;
+    color: #FFFFFF;
+    
 }
-
-.input-content {
-    padding-top: 120px;
-
-}
-
-.input-content h1 {
+.input-content h1{
     font-size: 50px;
-    font-weight: 700;
-    color: #FFFFFF;
 }
-
-.mail {
-    width: 400px;
-    padding: 10px;
-    outline: none;
-    font-size: 16px;
-    font-weight: 400;
-    color: #00000050;
-    border: none;
-}
-
-form>button {
-    padding: 10px;
-    width: 200px;
-    outline: none;
-    color: #FFFFFF;
-    font-size: 16px;
-    font-weight: 600;
-    background-color: #E95A08;
-    border: none;
-}
-
-form {
+.btn {
+    justify-content: center;
     display: flex;
-
+   
+    
 }
-
+.mail{
+    padding: 10px;
+    border: none;
+    color: #00000050;
+    width: 500px;
+    outline: none;
+}
+.btn > button{
+    padding: 15px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #E95A08;
+    width: 200px;
+}
 /* footer style */
 .footer-contributer{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    margin-top: -100px;
+    
     gap: 50px;
 }
 .one p{
@@ -391,7 +379,7 @@ form {
     .banner {
         flex-direction: column-reverse;
     }
-    /* olan section style */
+    /* plan section style */
     .plants-card h4{
         margin-left: 0px;
     }
@@ -462,63 +450,37 @@ form {
     .bottom-card>img {
     border-radius: 0px;
 }
+  /* input section */
+  .Input-contributer > img {
+    position: relative;
+    margin-top: 50px;
+    height: 276px;
+    width: 410px;
+    margin-bottom: -100px;
+    
+}
+.input-content{
+    position: relative;
+    bottom: 100px;    
+}
+.input-content h1{
+    font-size: 30px;
+}
 
-
-    /* input section */
-    .input-contributer {
-        padding: 0px;
-        margin: 0px;
-        height: 100vh;
-        justify-items: center;
-        background-size: cover;
-        margin-top: 10px;
-        padding-top: 0px;
-        width: 410px;
-       
-       justify-items: center;
-        padding-left: 00px;
-        height: -1000px;
-        position: relative;
-        
-
-    }
-
-    .input-content {
- 
-        padding-top: 180px;
-        justify-content: flex-start;
-        align-items: flex-start;
-       
-
-    }
-
-    .input-content h1 {
-        font-size: 20px;
-        font-weight: 700;
-        color: #FFFFFF;
-       
-    }
-
-    .mail {
-        width: 150px;
-        padding: 15px;
-        outline: none;
-        font-size: 15px;
-        font-weight: 400;
-
-    }
-
-    form>button {
-        padding:15px;
-        width: 100px;
-        font-weight: 400;
-        font-size: 15px;
-    }
+.mail{
+    width: 200px;
+   
+}
+.btn > button{
+   
+    width: 100px;
+}
+  
 
     /* footer */
     .footer-contributer{
         grid-template-columns: 1fr;
-        margin-top: 10px;
+        margin-top: 0px;
     }
     .one{
         margin-left: 10px;
@@ -537,17 +499,3 @@ form {
         
     }
 }
-/* @media screen and (max-width:375px) {
-     .input-contributer {
-
-        height: 100vh;
-        justify-items: center;
-        background-size: contain;
-        margin-top: 10px;
-        padding-top: px;
-        width: 370px;
-        justify-items: flex-start;
-        padding-left: 80px;
-
-    }
-} */
