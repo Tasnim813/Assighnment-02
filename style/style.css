@@ -1,139 +1,511 @@
-.container{
+.container {
     max-width: 1140px;
     margin: 0 auto;
+
+
 }
 
 .inter-normal {
-  font-family: "Inter", sans-serif;
- 
+    font-family: "Inter", sans-serif;
+
 }
+
 .noto-serif-normal {
-  font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Noto Serif", serif;
+
 }
-.primary{
+
+.primary {
     color: #E95A08;
 }
 
 /* nav style */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-nav ul{
+
+nav ul {
     display: flex;
 }
-ul > li{
+
+ul>li {
     list-style: none;
     margin-left: 40px;
+    /* margin-right: 40px; */
 }
-li > a{
+
+li>a {
     text-decoration: none;
     font-size: 16px;
-    
+
 }
-.home{
+
+.home {
     color: #252432;
     font-weight: 700;
 }
-.shop, .about{
+
+.shop,
+.about {
     color: #8987A1;
     font-weight: 400;
 }
-.cart{
+
+.cart {
     color: #000000;
     font-weight: 400;
 }
+
 /* banner-style */
-.banner{
+.banner {
     display: flex;
     align-items: end;
     margin-top: 120px;
 }
-.banner h1{
+
+.banner h1 {
     font-size: 50px;
     font-weight: 700;
     line-height: 40px;
 }
-.banner p{
+
+.banner p {
     font-size: 22px;
     font-weight: 400;
     color: #00000050;
 }
+
 /* plant section */
-.plans-contributer{
+.plans-contributer {
     margin-top: 120px;
     align-items: center;
     text-align: center;
 }
-.plans-contributer h1{
+
+.plans-contributer h1 {
     font-size: 50px;
     font-weight: 700;
     color: #111111;
 
 }
-.plans-contributer p{
+
+.plans-contributer p {
     font-size: 22px;
     font-weight: 400;
-   color: #00000050;
+    color: #00000050;
 }
-.plants-card p{
+
+.plants-card p {
     font-size: 22px;
     font-weight: 500;
     color: #111111;
 }
-.plants-card h4{
+
+.plants-card h4 {
     font-size: 22px;
-  
+
     font-weight: bold;
     column-rule: #111111;
     margin-top: -10px;
 }
-.plants-card button{
+
+.plants-card button {
     padding: 26px 50px;
     background-color: #E95A08;
     font-size: 16px;
     font-weight: 600;
     color: #FFFFFF;
-    border:none ;
+    border: none;
     width: 270px;
 }
+
 .plants-card {
     margin-top: 20px;
-    
+
 }
-.plants-card > img{
+
+.plants-card>img {
     width: 270px;
 
 }
-.plants-contributer-card{
+
+.plants-contributer-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* flower section */
+.flower-contributer {
+    display: flex;
+
+    /* flex-wrap: wrap; */
+    margin-top: 120px;
+    gap: 30px;
+    /* text-align: center; */
+
+}
+
+.box {
+    position: relative;
+    width: 400px;
+}
+
+.badge {
+    position: absolute;
+    top: -40px;
+    right: -38px;
+}
+
+.image-section .box img {
+    width: 100%;
+}
+
+.image-section .badge img {
+    width: 100px;
+    height: auto;
+}
+
+.flower-contributer h1 {
+    font-size: 50px;
+    color: #000000;
+    margin-top: -2px;
+    margin-left: 20px;
+}
+
+.flower-contributer li {
+    font-size: 22px;
+    color: #00000050;
+    margin-top: 10px;
+    font-weight: 400;
+    list-style: circle;
+}
+
+
+
+/* latest section style */
+.Latest-contributer {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.Latest-contributer h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.Latest-contributer p {
+    font-size: 16px;
+    color: #00000050;
+    margin-top: -10px;
+}
+
+.card-container {
+    display: flex;
+    gap: 30px;
+}
+
+.top-card>img {
+    border-radius: 10px;
+}
+
+.top-card {
+    position: relative;
+
+}
+
+.top-text {
+    position: absolute;
+    bottom: 60px;
+    left: 50px;
+}
+
+.top-text h1 {
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.top-text>a {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.bottom-card {
+    position: relative;
+    margin-top: 25px;
+
+}
+
+.bottom-text {
+    position: absolute;
+    bottom: 60px;
+    left: 70px;
+}
+
+.bottom-card>img {
+    border-radius: 10px;
+}
+
+.bottom-text h1 {
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.bottom-text a {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.right-card {
+    position: relative;
+    max-width: 100%;
+    height: 100%;
+}
+
+.right-text {
+    position: absolute;
+    bottom: 180px;
+    left: 250px;
+}
+
+.right-text h1 {
+    font-size: 25px;
+    color: #FFFFFF;
+
+}
+
+.right-text a {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.right-card>img {
+    border-radius: 10px;
+}
+
+/* Input style */
+.input-contributer {
+    background-image: url('../assets/news-letter-bg.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    justify-items: center;
+    background-size: contain;
+    margin-top: 120px;
+    text-align: center;
+
+}
+
+.input-content {
+    padding-top: 120px;
+
+}
+
+.input-content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.mail {
+    width: 400px;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #00000050;
+    border: none;
+}
+
+form>button {
+    padding: 10px;
+    width: 200px;
+    outline: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #E95A08;
+    border: none;
+}
+
+form {
+    display: flex;
+
+}
+
+/* footer style */
+.footer-contributer{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    margin-top: -100px;
+    gap: 50px;
+}
+.one p{
+  color: #6B7280; 
+}
+.one > img{
+    width: 135px;
+    height: 82px;
+}
+.two{
+    color: #6B7280;
+    margin-left: 30px;
+}
+.three{
+    color: #6B7280;
+    margin-left: 30px;
+
+}
+.four{
+    align-items: center;
+}
+.twit{
+    margin-left: 20px;
+}
+.face{
+    margin-left: 20px;
+}
+.you{
+    margin-left: 20px;
 }
 @media screen and (max-width:425px) {
-    
+
+    .shop,
+    .about,
+    .home {
+        display: none;
+    }
+
+
+    ul>li {
+        margin-left: 0px;
+    }
+
     .banner {
         flex-direction: column-reverse;
     }
-    .plants-contributer-card{
-        grid-template-columns: repeat(2,1fr);
+
+    .plants-contributer-card {
+        grid-template-columns: repeat(2, 1fr);
         gap: 10px;
     }
-   .plants-card > img{
-    width: 200px;
-   }
-    .plants-card{
+
+    .plants-card>img {
+        width: 200px;
+    }
+
+    .plants-card {
         max-width: 50%;
         text-align: center;
     }
-    .plants-card button{
+
+    .plants-card button {
         padding: 0;
         width: 200px;
         height: 50px;
     }
+
+    .flower-contributer {
+        flex-direction: column;
+        gap: 0px;
+        margin-top: 50px;
+    }
+
+    .box {
+        position: relative;
+        width: 100%;
+    }
+
+    .badge {
+        display: none;
+    }
+
+    /* latest style */
+    .card-container {
+        flex-direction: column;
+    }
+
+    .right-card>img {
+        width: 366px;
+    }
+
+    .bottom-card {
+        position: relative;
+    }
+
+    .right-text {
+        position: absolute;
+        top: 60px;
+        left: 80px;
+
+    }
+
+    /* input section */
+    .input-contributer {
+
+        height: 100vh;
+        justify-items: center;
+        background-size: contain;
+        margin-top: 10px;
+        padding-top: px;
+        width: 500px;
+        justify-items: flex-start;
+        padding-left: 80px;
+
+    }
+
+    .input-content {
+        padding-top: 50px;
+        align-content: center;
+
+    }
+
+    .input-content h1 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #FFFFFF;
+    }
+
+    .mail {
+        width: 150px;
+        padding: 8px;
+        outline: none;
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+
+    form>button {
+        padding: 8px;
+        width: 100px;
+        font-weight: 600;
+    }
+
+    /* footer */
+    .footer-contributer{
+        grid-template-columns: 1fr;
+        margin-top: 0px;
+    }
+    .one{
+        margin-left: 10px;
+    }
+    .two{
+        margin-top: -60px;
+        margin-left: 10px;
+    }
+    .three{
+        margin-top: -62px;
+        margin-left: 10px;
+    }
+    .four{
+        margin-top: -50px;
+        margin-left: 10px;
+        
+    }
+
+
 }
