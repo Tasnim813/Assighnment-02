@@ -332,7 +332,7 @@ li>a {
 .footer-contributer{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    
+    margin-top: -150px;
     gap: 50px;
 }
 .one p{
