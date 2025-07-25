@@ -179,7 +179,7 @@ li>a {
     color: #00000050;
     margin-top: 10px;
     font-weight: 400;
-    list-style: circle;
+   list-style: disc;
 }
 
 
@@ -208,6 +208,7 @@ li>a {
 
 .top-card>img {
     border-radius: 10px;
+    filter: brightness(60%);
 }
 
 .top-card {
@@ -246,6 +247,7 @@ li>a {
 
 .bottom-card>img {
     border-radius: 10px;
+    filter: brightness(60%);
 }
 
 .bottom-text h1 {
@@ -286,6 +288,7 @@ li>a {
 
 .right-card>img {
     border-radius: 10px;
+    filter: brightness(60%);
 }
 
 /* Input style */
@@ -388,19 +391,25 @@ form {
     .banner {
         flex-direction: column-reverse;
     }
-
+    .plants-card h4{
+        margin-left: 0px;
+    }
     .plants-contributer-card {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
+        
     }
-
+    .plants-card > p{
+        display: flex;
+        margin-left: 30px;
+    }
     .plants-card>img {
         width: 200px;
     }
 
     .plants-card {
-        max-width: 50%;
         text-align: center;
+        max-width: 100%;
     }
 
     .plants-card button {
@@ -443,6 +452,10 @@ form {
         left: 80px;
 
     }
+    .bottom-card>img {
+    border-radius: 0px;
+}
+
 
     /* input section */
     .input-contributer {
